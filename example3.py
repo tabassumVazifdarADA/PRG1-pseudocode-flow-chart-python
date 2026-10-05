@@ -9,7 +9,7 @@ target_reps = int(input("Target number of reps: "))
  
 rep_count = 0
 user_stopped = False
- 
+
 while rep_count < target_reps and user_stopped is False:
     # Stands in for DETECT in the pseudocode.
     next_rep_or_stop_signal = input("Press Return for a rep, or type STOP: ").strip().upper()
